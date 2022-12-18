@@ -15,7 +15,7 @@ import reactor.core.publisher.Mono;
  */
 public class App {
 	public static void main(String[] args) {
-		final String token = "ODg4MDcwNjUyODU3Mjg2NjY3.GAVXKQ.jBIfbwjs9bedjpSy3blkYu7eJlE-wG_W3JI4Jc";
+		final String token = "ODg4MDcwNjUyODU3Mjg2NjY3.GJsi08.ChtcxCZv4MSbawqwV1oZY1OfEGSs3KcdbA3eZc";
 		DiscordClient client = DiscordClient.create(token);
 		Mono<Void> login = client.withGateway((GatewayDiscordClient gateway) ->
 	    gateway.on(MessageCreateEvent.class, event -> {
