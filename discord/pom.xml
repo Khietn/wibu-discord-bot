@@ -7,7 +7,7 @@
 
 	<groupId>com</groupId>
 	<artifactId>discord</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1</version>
 
 	<name>discord</name>
 	<!-- FIXME change it to the project's website -->
